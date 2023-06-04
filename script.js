@@ -19,12 +19,12 @@ do {
         case 1: // caso 1 para el 15%
             let descuento = precio * 0.15
             let precioFinal = precio - descuento
-            alert("El descuento es de: $" + descuento + " y el precio final es de: $" + precioFinal)
+            alert("El descuento es de: $" + descuento.toFixed(2) + " y el precio final es de: $" + precioFinal.toFixed(2))
             break
         case 2:// caso 2 para el 30%
             let descuento2 = precio * 0.3
             let precioFinal2 = precio - descuento2
-            alert("El descuento es de: $" + descuento2 + " y el precio final es de: $" + precioFinal2) // muestro mensaje con los resultados de ambas variables
+            alert("El descuento es de: $" + descuento2.toFixed(2) + " y el precio final es de: $" + precioFinal2.toFixed(2)) // muestro mensaje con los resultados de ambas variables
             break
         case 3:// caso 3 para las tres cuotas
             let cuota = precio / 3
