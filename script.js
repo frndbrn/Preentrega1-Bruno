@@ -28,7 +28,7 @@ do {
             break
         case 3:// caso 3 para las tres cuotas
             let cuota = precio / 3
-            alert("Usted puede financiar el producto en 3 coutas de " + cuota.toFixed(2) + " sin interés") // el toFixed() para que solo muestre dos decimales
+            alert("Usted puede financiar el producto en 3 coutas de $" + cuota.toFixed(2) + " sin interés") // el toFixed() para que solo muestre dos decimales
             break
         case 4: // mensaje al usuario de que finalizó el programa
             alert("Gracias por usar nuestro servicio, que tenga un buen dia!")
